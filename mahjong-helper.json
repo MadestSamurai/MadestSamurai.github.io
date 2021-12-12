@@ -1,0 +1,66 @@
+{
+  "request": [
+    {
+      "enable": true,
+      "name": "天凤",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https?://tenhou\\.net/3/[0-9a-zA-Z]+\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://endlesscheng.gitee.io/public/js/tenhou/code.js"
+    },
+    {
+      "enable": true,
+      "name": "天凤-4K",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https?://tenhou\\.net/4/[0-9a-zA-Z]+\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://endlesscheng.gitee.io/public/js/tenhou4k/code-4k.js"
+    },
+    {
+      "enable": true,
+      "name": "雀魂-国际中文服",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://game\\.maj\\-soul\\.com/[0-9]+/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://madestsamurai.github.io/code-zh.js"
+    },
+    {
+      "enable": true,
+      "name": "雀魂-日服",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://game\\.mahjongsoul\\.com/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://endlesscheng.gitee.io/public/js/majsoul/code-jp.js"
+    },
+    {
+      "enable": true,
+      "name": "雀魂-国际服",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https://mahjongsoul\\.game\\.yo-star\\.com/[a-zA-Z0-9\\.]+/code\\.js$",
+      "exclude": "",
+      "group": "未分组",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://endlesscheng.gitee.io/public/js/majsoul/code-en.js"
+    }
+  ],
+  "sendHeader": [],
+  "receiveHeader": []
+}
